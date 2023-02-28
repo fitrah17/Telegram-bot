@@ -4,10 +4,10 @@ import openai
 import telebot
 
 # Set the API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Create a Telegram bot
-bot = telebot.TeleBot("5895661527:AAEbKVj0pcrmAQZI4aLyXMhAJ-E72mbfhAk")
+bot = telebot.TeleBot("")
 
 
 # Handle the '/generate' command
